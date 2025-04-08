@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindog - A Dating App for Dogs</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        .header {
+            background: linear-gradient(to right, #ff4b2b, #4169E1);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .header .btn {
+            margin-top: 30px;
+        }
+
+        .header .btn a {
+            background-color: white;
+            color: black;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .header img {
+            width: 100%;
+            max-width: 350px;
+            position: absolute;
+            bottom: -60px;
+            right: 50px;
+        }
+
+        /* Features Section */
+        .features {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .features h2 {
+            font-size: 2.2em;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .features p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .features .feature-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .features .feature-items div {
+            width: 30%;
+            min-width: 200px;
+            margin: 20px 0;
+        }
+
+        .features .feature-items img {
+            width: 60px;
+            margin-bottom: 15px;
+        }
+
+        .features .feature-items h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .features .feature-items p {
+            color: #666;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            background: linear-gradient(to right, #ff4b2b, #4169E1);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .pricing h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .pricing p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .pricing .pricing-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .pricing .pricing-items div {
+            background-color: white;
+            color: black;
+            width: 25%;
+            min-width: 220px;
+            margin: 15px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing .pricing-items h3 {
+            margin: 0;
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .pricing .pricing-items p {
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .pricing .pricing-items a {
+            background-color: #ff4b2b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5em;
+            }
+
+            .header img {
+                max-width: 250px;
+                right: 20px;
+                bottom: -40px;
+            }
+
+            .features .feature-items div {
+                width: 45%;
+            }
+
+            .pricing .pricing-items div {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .header img {
+                max-width: 200px;
+                right: 10px;
+                bottom: -30px;
+            }
+
+            .features .feature-items div {
+                width: 100%;
+            }
+
+            .pricing .pricing-items div {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header">
+        <h1>Meet new and interesting dogs nearby.</h1>
+        <div class="btn">
+            <a href="#">Download</a>
+            <a href="#">Download</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="iPhone with Tindog App">
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</h2>
+        <p>Margie, a Corgi</p>
+        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=60" alt="Margie the Corgi" style="width: 200px; border-radius: 50%; margin: 20px 0;">
+        <div class="feature-items">
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/4471/4471475.png" alt="Check Icon">
+                <h3>Easy to use.</h3>
+                <p>So easy to use, even your dog could do it.</p>
+            </div>
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="Heart Icon">
+                <h3>Elite Clientele.</h3>
+                <p>We have all the greatest dogs, the greatest dogs.</p>
+            </div>
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/2164/2164419.png" alt="Money Icon">
+                <h3>Guaranteed to work.</h3>
+                <p>Find the love of your dog's life or your money back.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <h2>A Plan for Every Dog's Needs</h2>
+        <p>Simple and affordable price plans for you and your dog.</p>
+        <div class="pricing-items">
+            <div>
+                <h3>Chihuahua</h3>
+                <p>$0/mo</p>
+                <p>5 Matches Per Day</p>
+                <p>10 Messages Per Day</p>
+                <p>Unlimited App Usage</p>
+                <a href="#">Sign up for free</a>
+            </div>
+            <div>
+                <h3>Labrador</h3>
+                <p>$15/mo</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <a href="#">Get Started</a>
+            </div>
+            <div>
+                <h3>Mastiff</h3>
+                <p>$29/mo</p>
+                <p>Priority Listing</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <a href="#">Get Started</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

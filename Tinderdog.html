@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinDog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .gradient-background {
+      background: linear-gradient(to right, #ff4e50, #f9d423);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+      max-width: 1200px;
+      width: 100%;
+      gap: 40px;
+    }
+
+    .left {
+      flex: 1;
+      color: #fff;
+    }
+
+    .left h1 {
+      color: black;
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 20px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border: none;
+    }
+
+    .btn-light {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .btn-outline-light {
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .iphone {
+      width: 300px;
+      height: auto;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="gradient-background">
+    <div class="container">
+      <div class="left">
+        <h1>Meet new and interesting <br> dogs nearby.</h1>
+        <div class="btn-group">
+          <button class="btn btn-light">
+            <img src="c:\Users\LAB 2.3\Downloads\images.jpg" alt="Apple" width="20"> Download
+          </button>
+          <button class="btn btn-outline-light">
+            <img src="c:\Users\LAB 2.3\Downloads\images.1.png" alt="Play" width="20"> Download
+          </button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="c:\Users\LAB 2.3\Downloads\iphone.png.jpeg" class="iphone" alt="iPhone with Dog Selfie">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
